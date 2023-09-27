@@ -1,0 +1,52 @@
+/* ---------------------- layout ------------------------- */
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 1.2em;
+    background-color:black;
+    background-image: url("../images/aurora.jpg");
+    background: no-repeat
+    background-size cover; 
+    color: black;
+}
+
+.container {
+    text-align: center;
+    color: gold; 
+    width: 90%;
+    min: height 500px;;
+    background-image:url(../images/cat2.jpg)
+    max-width: 1400px;
+    min-width: 500px;
+    margin: 20px auto;
+    overflow: auto;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    min-height: 80px;
+    text-align: center;
+}
+
+h2 {
+    color: navy;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: navy;
+}
+
+img {
+    width: 500px;
+}
