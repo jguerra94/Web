@@ -1,0 +1,49 @@
+body{
+    background: #6783e8;
+    font-family:fantasy;
+    color:#5df4df;
+}
+
+h1{
+    font-family:cursive;
+    color:#5df4df;
+    text-align:center;
+    
+}
+
+
+img{
+    display:block;
+    width:300px;
+    height:300px;
+    margin: 10px auto;
+    border: 6px solid #ffffff;
+    border-radius:100%;
+}
+
+figure{
+    border:2px solid #fffaa1;
+    width:350px;
+    height: 350px;
+    padding: 2px;
+    border-radius: 100%;
+    background: #185812;
+    margin:auto;
+}
+
+ol li{
+    color:#5df4df;
+}
+
+ul{
+    list-style-type:disc;
+}
+
+dt{
+    color:#5df4df;
+    font-weight:bold;
+}
+
+dd{
+    color:#5df4df;
+}
