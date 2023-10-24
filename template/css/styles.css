@@ -1,0 +1,47 @@
+body{
+    background: rgb(187, 180, 180);
+    color:#732ac2;
+    font-size:x-large;
+    font-family: 'cabin',
+                sans-serif;
+}
+
+h1, h2, h3{
+    color:#00eaff;
+    font-family: 'notoserif'
+                serif;
+    
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    background: #b43c3c;
+    padding: 10px 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: #0ef01a;
+    border: 2px solid #005342;
+    border-radius: 20px;
+}
+
+nav a:hover{
+    color: #005342;
+    background: #F2913D;
+}
+
+
+img{
+    margin: 10px auto;
+    width: 50%;
+    display:block; 
+}
+
+.container{
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid  #F2913D;
+}
