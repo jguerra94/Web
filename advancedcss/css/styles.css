@@ -1,0 +1,31 @@
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.8688068977591037) 30%, rgba(255,0,26,1) 70%);
+}
+#columns{
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5px;
+    column-count: 3;
+    column-gap: 5px;
+}
+
+.card{
+    -webkit-box-shadow: 10px 5px 4px 4px #333AFF;
+    box-shadow: 10px 5px 4px 4px #333AFF;
+    background: ivory;
+    padding: 10px;
+    min-height: 500px;
+    width: 29%;
+    margin: 20px 1%;
+    float: left;
+    font-family: arial;
+    line-height: 1.5;
+}
+
+.card img{
+    display:block;
+    width: 80%;
+    margin: 10px auto;
+}
