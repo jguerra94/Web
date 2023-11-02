@@ -41,13 +41,16 @@ ul.navbar li {
 }
 
 /* Style the lozenge-shaped buttons */
-ul.navbar li a {
+/* Style the lozenge-shaped buttons */
+nav a {
     display: inline-block;
     padding: 10px 20px;
     background-color: rgb(49, 6, 105);
     color: white;
     text-decoration: none;
     border-radius: 25px;
+    width: 90%; 
+    margin: 2px auto;
     /* Adjust the value for the desired roundness */
 }
 
