@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>JavaScript Image Control</h1>
+    </header>
+    <main class="container">
+      <div class="grid-container">
+        <div>
+          <img src="images/buggatti.jpg" onclick='change("images/buggatti.jpg")' alt="buggatti" id="img1" />
+          
+        </div>
+        <div>
+          <img src="images/mustang.jpg"   onclick='change("images/mustang.jpg")'alt="mustang" id="img2 " />
+          
+        </div>
+        <div>
+          <img src="images/tesla.jpg"onclick='change("images/tesla.jpg")' alt="tesla" id="img3" />
+          
+        </div>
+        <div><img src="images/ferarri.jpg"onclick='change("images/ferarri.jpg")' alt="ferarri" id="img4" /></div>
+        
+
+        <div><img src="images/raptor.jpg" onclick='change("images/raptor.jpg")' alt="raptor" id="img5" /></div>
+        
+      </div>
+      <div id="main-image">
+        <img
+          src="images/buggatti.jpg"
+          alt="buggatti"
+          id="large"
+        />
+      </div>
+    </main>
+    <footer class="container">
+      <p>&copy;Jerry Guerra 2023</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,98 @@
+:root{
+    --bright: #686868a4;
+    --muted: #ffc813a1;
+    --dark: #9f0000;
+    --light: #c9fb00;
+    --intense: #ff9500;
+    --background: rgb(52, 0, 164);
+
+    --type: 'Roboto Flex', sans-serif;
+    --headings: 'Young Serif', serif;
+}
+
+
+
+
+
+
+
+body{
+    background: var(--background);
+    color:var(--light);
+    font-size:x-large;
+    font-family: var(--type);
+}
+
+h1, h2, h3{
+    color:var(--bright);
+    font-family: var(--headings)
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    background: var(--dark);
+    padding: 10px 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: var(--intense);
+    border: 2px solid var(--dark);
+    border-radius: 20px;
+}
+
+nav a:hover{
+    color: var(--dark);
+    background: var(--intense);
+}
+
+
+img{
+    margin: 10px auto;
+    width: 90%;
+    display:block; 
+}
+
+.container{
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid  var(--bright);
+}
+
+a{
+    text-decoration: none;
+    color: var(--intense);
+}
+a:hover{
+    text-decoration: underline;
+    color:var(--muted);
+}
+
+dt{
+    margin-top: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+
+
+}
+
+#large{
+    width: 40%;
+    display: block;
+    margin: 25px auto;
+}
+
