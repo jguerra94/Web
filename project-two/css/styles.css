@@ -1,0 +1,212 @@
+
+
+body{
+  margin: 0;
+  font-family: roboto-slap;
+  color: white;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,87,198,1) 29%, rgba(27,4,96,1) 100%);
+}
+p{
+  font-family:comfortaa;
+  color: gold;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+}
+
+.paint-grid{
+  display:grid;
+  grid-template-columns: repeat(12, 1fr)
+}
+
+header{
+  padding: 20px 40px;
+  text-align: left;
+  align-items: center;
+}
+
+header h1{
+  grid-column:span 6;
+}
+
+header nav{
+  grid-column: 7 / span 6;
+}
+
+header nav a {
+  text-decoration: none;
+  color:royalblue;
+  border-radius: 10px;
+  background-color:gold;
+  padding:5px 15px;
+
+}
+
+main{
+  max-width:1200px;
+  margin: 60px;
+  padding:20px;
+}
+main img{ 
+  grid-column: span 8;
+  width: 75%;
+  
+}
+
+main .exploreart{
+  grid-column: span 5;
+  width: 50;
+  color:royalblue
+
+
+}
+main > h2 {
+  grid-column: span 12; 
+  text-align: center;
+}
+main .card{
+  grid-column: span 4;
+  background:rgba rgb(147, 147, 147);
+  padding:10px, 20px;
+  border-radius:6px;
+  color:gold
+}
+
+.container{
+  padding: 20px;
+  width: 80%;
+  margin: 10px auto;
+  border: 2px solid  var(--bright);
+}
+
+a{
+  text-decoration: none;
+  color: var(--intense);
+}
+a:hover{
+  text-decoration: underline;
+  color:var(--muted);
+}
+
+dt{
+  margin-top: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px auto;
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+
+
+}
+.paintingimages{
+  height: 50%;
+  width:70%
+}
+
+.sculptureimages{
+  height: 65%;
+  width: 65%;
+}
+
+nav a{
+  text-align: right;
+}
+
+#large{
+  width: 40%;
+  display: block;
+  margin: 25px auto;
+}
+
+
+
+footer{
+  text-align: center;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+      width: 8.33%;
+  }
+
+  .col-2 {
+      width: 16.66%;
+  }
+
+  .col-3 {
+      width: 25%;
+  }
+
+  .col-4 {
+      width: 33.33%;
+  }
+
+  .col-5 {
+      width: 41.66%;
+  }
+
+  .col-6 {
+      width: 50%;
+  }
+
+  .col-7 {
+      width: 58.33%;
+  }
+
+  .col-8 {
+      width: 66.66%;
+  }
+
+  .col-9 {
+      width: 75%;
+  }
+
+  .col-10 {
+      width: 83.33%;
+  }
+
+  .col-11 {
+      width: 91.66%;
+  }
+
+  .col-12 {
+      width: 100%;
+  }
+}
+
+/* For mobile phones: */
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
