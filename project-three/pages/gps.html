@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3:NYC Galleria</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="../css/styles.css">
+
+
+</head>
+<body>
+    
+    <header>
+        <div id="fancyh">
+        <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+    <!-- Navbar brand -->
+    
+    
+    <!-- Toggle button -->
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-mdb-toggle="collapse"
+    data-mdb-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    >
+    <i class="fas fa-bars"></i>
+    </button>
+    
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Left links -->
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="../pages/exhibits.html">Exhibits</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="../pages/tours.html">Tours</a>
+    </li>
+        <li class="nav-item">
+                <a class="nav-link" href="#">Gps</a>
+        </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/faq.html">FAQ</a>
+       
+       </li> 
+    </div>
+    </div>
+</div>
+
+</nav>
+    <img src="../images/nycheader.png" alt="" id="imageHeader">
+            </header>
+        <div class="row">
+            <div class="col-6">
+                <img src="../images/gallerybuilding.jpg" alt="">
+                <img src="../images/marriotthotel.jpg" alt="">
+                <img src="../images/centralpark.jpg" alt="">
+            </div>
+            <div class="col-6">
+                <img src="../images/maps.png" alt="">
+                <img src="../images/subway.jpg" alt="">
+                <img src="../images/yellowcab.jpg" alt="">
+            </div>
+        </div>
+        <h1>Directions</h1>
+        <p>Nestled at the vibrant intersection of culture and sophistication, New York City Galleria awaits your presence at 1330 5th Avenue in the heart of Manhattan, just a stone's throw from the northeast entrance to the iconic Central Park. As you navigate our art-filled haven, you'll find us neighborly to the esteemed Locke School of Arts and Engineering, standing as our creative companion. Across the street, the towering Martin Luther King towers lend their majestic presence, while the New York City Fire Department's engine 28 stands sentinel just a block away. Positioned amidst these landmarks, we are an unmissable gem in the city's cultural crown.
+
+            Accessing our sanctuary is a seamless endeavor, with multiple transportation options beckoning you. The subway from Grand Central also has a stop a mere block away, which is brief 3-minute stroll to our doors. Alternatively, indulge in the quintessential New York experience by hailing a yellow cab, where the drivers themselves are eager storytellers, sharing the rich tapestry of the city's history with curious travelers.
+            
+            For those seeking the pinnacle of convenience, if your sojourn brings you to the Marriott hotel half a mile away, consider yourself in luck. The hotel generously extends complimentary shuttle buses to and from our art haven—simply inquire at the front desk for further details. And for those planning a more extended stay in the city, indulge in our special accommodation offer—20% off a minimum two-night retreat at the Marriott. Just click below for the exclusive promo code and unlock the door to an unforgettable cultural escape.
+            
+            We eagerly anticipate the pleasure of welcoming you as our esteemed guest at our galleria. Discover the enchantment that lies within our walls and the surrounding cityscape, where every step is a brushstroke in the masterpiece of your New York experience. Your journey into art and culture begins here!</p>
+        
+<button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Popover Header" data-bs-content="Some content inside the popover">Toggle popover</button>
+
+            <footer>&copy;Jerry Guerra 2023</footer>
+        </div>
+    </body>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          return new bootstrap.Popover(popoverTriggerEl)
+        })
+        </script>
+    </html>
