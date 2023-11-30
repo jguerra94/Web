@@ -9,7 +9,7 @@ body {
 
 
 #tp{
-    color: rgba(32, 165, 200, 0.12);
+    background-color: rgb(41 144 171 / 58%)
 }
 #tp > p{
     color: white;
@@ -186,4 +186,8 @@ html {
 #imageHeader{
     display: block;
     width: 100%;
+}
+
+#tourp {
+    background-color: rgba(800, 255,255,0.4);
 }
