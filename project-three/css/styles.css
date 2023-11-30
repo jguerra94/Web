@@ -9,11 +9,13 @@ body {
 
 
 #tp{
-    background-color: rgb(41 144 171 / 58%)
+    background-color: rgb( 0,0,0, 0.4)
 }
 #tp > p{
     color: white;
 }
+
+
 
 
 h1{
@@ -190,4 +192,14 @@ html {
 
 #tourp {
     background-color: rgba(800, 255,255,0.4);
+}
+
+footer{
+    text-align: center;
+    background-color:black;
+}
+
+.w{
+    color:whitesmoke;
+    ;
 }
