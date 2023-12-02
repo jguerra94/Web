@@ -13,8 +13,9 @@ nav{
 nav a{
     font-weight:bold;
     text-decoration:none;
-    color:darkolivegreen;
+    color:whitesmoke;
     margin:5px 15px;
+    background-color: black;
 }
 #creating, #styling, #calendar{
     width: 90%;

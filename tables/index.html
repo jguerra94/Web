@@ -4,9 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tables</title>
+    <style>
+       table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            margin: 20px auto;
+        }
+    </style>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <div class="container"> </div>
     <header>
       <h1>Creating Tables</h1>
       <nav>
@@ -15,49 +27,50 @@
         <a href="calendar.html">Calendar</a>
       </nav>
     </header>
-    <main>
+    <table width="80%"></table>
       <table id="creating">
        
         <tr>
          
+          <th>col 1</th>
+          <th>col 2</th>
+          <th>col 3</th>
+          <th>col 4</th>
+        </tr>
+        <tr>
+          <th>Row 1</th>
           <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>row 2</th>
+          <td rowspan="3"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Row 3</th>
+          <td></td>
+          <td></td>
+          <td></td>
+        
+        </tr>
+        <tr>
+          <th>Row 4</th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Row 5</th>
           <td colspan="2"></td>
           <td></td>
           <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td rowspan="2"></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
       </table>
     </main>
+  </div>
   </body>
 </html>
