@@ -35,3 +35,21 @@ h2{
 .container p{
     margin-left: 15px;
 }
+
+#p1{
+    font-weight: bold;
+    color: crimson;
+    padding:30px;
+}
+
+#p2{
+    font-weight: bold;
+    color: orange;
+    padding:30px;
+}
+
+#p3{
+    font-weight: bold;
+    color: green;
+    padding: 30px;
+}
