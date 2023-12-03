@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&family=Young+Serif&display=swap"
       rel="stylesheet"
+      
+     
     />
+    <body>
   <header class="container">
     <h1>Forms</h1>
   </header>
@@ -47,6 +51,23 @@
         <input type="submit" value="submit" />
       </form>
     </form>
+    <form>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    
+      <label for="birthdate">Birthdate:</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+    
+      <label>Gender:</label>
+      <label for="male">
+        <input type="radio" id="male" name="gender" value="male" checked> Male
+      </label>
+      <label for="female">
+        <input type="radio" id="female" name="gender" value="female"> Female
+      </label>
+      <label for="other">
+        <input type="radio" id="other" name="gender" value="other"> Other
+      </label>
   </main>
       <p>&copy; 2023 Jerry Guerra</p>
     </footer>

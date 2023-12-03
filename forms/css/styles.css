@@ -13,8 +13,8 @@ body {
     --bright: #ec3127;
     --muted: #05ffee;
     --dark: #005342;
-    --light: #464646;
-    --intense: #ff8317cd;
+    --light: #f7af1e;
+    --intense: #b75e10cd;
     --background: rgb(34, 10, 75);
 
     --type: 'Roboto Flex', sans-serif;
@@ -86,4 +86,7 @@ a:hover{
 
 dt{
     margin-top: 40px;
+}
+footer{
+    text-align: center;
 }
