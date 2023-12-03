@@ -1,15 +1,43 @@
+/*will be variables*/
+/*colors
+bright: #3981BF;
+muted:#938B8A;
+dark:#000000;
+light:#DB8600;
+intense:#DB1B00;
+*/
+
+/*fonts
+font-family: 'comfortaa', sans 
+serif;
+font-family: 'loral', serif;
+
+*/
+:root{  
+    --bright: #3981BF;
+   --muted:#938B8A;
+   --dark:#000000;
+   --light:#DB8600;
+   --intense:#DB1B00;
+   --background:grey;
+
+   --type: 'comfortaa', sans 
+serif;
+    --headings: 'lora', serif;
+   
+
+}
+
 body{
-    background: rgb(187, 180, 180);
-    color:#732ac2;
+    background: var(--background);
+    color:var(var(--light));
     font-size:x-large;
-    font-family: 'cabin',
-                sans-serif;
+    font-family: var(--type)
 }
 
 h1, h2, h3{
-    color:#00eaff;
-    font-family: 'notoserif'
-                serif;
+    color:var(--intense);
+    font-family: var(--headings)
     
 }
 
@@ -18,18 +46,18 @@ nav{
 }
 
 nav a{
-    background: #b43c3c;
+    background:var(--bright);
     padding: 10px 15px;
     margin: 10px;
     text-decoration: none;
-    color: #0ef01a;
-    border: 2px solid #005342;
+    color: gold;
+    border: 2px var(--bright);
     border-radius: 20px;
 }
 
 nav a:hover{
-    color: #005342;
-    background: #F2913D;
+    color: whitesmoke;
+    background: var(--light);
 }
 
 
@@ -43,5 +71,5 @@ img{
     padding: 20px;
     width: 80%;
     margin: 10px auto;
-    border: 2px solid  #F2913D;
+    border: 2px solid var(--bright);
 }
