@@ -1,0 +1,44 @@
+:root{  
+    --bright:gold;
+   --muted:#000000;
+   --dark:#9700F0;
+   --light:#00F0D5;
+   --intense:#E60000;
+   --background:grey;
+
+   --type: 'Arial', 'san serif';
+    --headings: 'Times New Roman', serif;
+}
+
+body{
+    background:var(--background);
+    font-size: x-large;
+    font-family:var(--type);
+    color:var(--background);
+    font-family: var(--type);
+    
+    
+    
+}
+
+h1,h2{
+    font-weight: bold;
+    font-family: var(--headings);
+    font-size: x-large;
+    color: var(--intense);
+}
+
+p{
+    font-weight:x-large;
+    font-family:var(--type);
+    color:var(--bright);
+}
+
+nav{
+    text-align: center;
+    color:var(--muted);
+}
+
+nav a{
+    color:var(--bright);
+}

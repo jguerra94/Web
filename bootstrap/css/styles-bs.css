@@ -1,9 +1,8 @@
-element.style {
-}
-@media (min-width: 768px)
-.col-md-6 {
+@media (min-width: 768px){
+.col-md-6{
     flex: 0 0 auto;
     width: 50%;
+}
 }
 .row>* {
     flex-shrink: 0;
@@ -16,7 +15,6 @@ element.style {
 *, ::after, ::before {
     box-sizing: border-box;
 }
-user agent stylesheet
 div {
     display: block;
 }
@@ -109,11 +107,8 @@ body {
     --bs-primary-bg-subtle: #cfe2ff;
     --bs-secondary-bg-subtle: #e2e3e5;
     --bs-success-bg-subtle: #d1e7dd;
-Show All Properties (67 more)
 }
-*, ::after, ::before {
-    box-sizing: border-box;
-}
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
